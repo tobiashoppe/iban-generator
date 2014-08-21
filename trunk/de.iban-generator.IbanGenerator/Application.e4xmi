@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_hf_agFKcEeOFcM45Mp5jFA" elementId="org.eclipse.e4.ide.application">
+  <children xsi:type="basic:Window" xmi:id="_mTjXsFK-EeOQCbqsvULjXA" elementId="de.iban-generator.ibangenerator.window.0" label="IBAN Generator" iconURI="" x="200" y="200" width="470" height="150">
+    <children xsi:type="basic:Part" xmi:id="_C0viQFKpEeOQCbqsvULjXA" elementId="de.iban-generator.ibangenerator.part.0" contributionURI="bundleclass://de.iban-generator.IbanGenerator/de.iban_generator.IbanGenerator.IbanGeneratorWizard" label="Iban Generator"/>
+  </children>
+  <addons xmi:id="_hf_aglKcEeOFcM45Mp5jFA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_hf_ag1KcEeOFcM45Mp5jFA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_hf_ahFKcEeOFcM45Mp5jFA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_hf_ahVKcEeOFcM45Mp5jFA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_hf_ahlKcEeOFcM45Mp5jFA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_hf_ah1KcEeOFcM45Mp5jFA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_hf_aiFKcEeOFcM45Mp5jFA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
